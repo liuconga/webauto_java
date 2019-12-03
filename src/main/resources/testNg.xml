@@ -14,10 +14,10 @@
         <classes>
             <class name="com.curry.webauto_java.scripts.TestDemo">
                 <methods>
-<!--                    <include name="test_login"/>-->
-<!--                    <include name="test_shop"/>-->
-<!--                    <include name="test_order"/>-->
-<!--                    <include name="test_logout"/>-->
+                    <include name="test_login"/>
+                    <include name="test_shop"/>
+                    <include name="test_order"/>
+                    <include name="test_logout"/>
                     <include name="testDataProvider"/>
                 </methods>
             </class>
