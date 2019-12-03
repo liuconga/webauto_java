@@ -65,8 +65,16 @@ public class TestDemo {
 
     @Test(dataProvider = "testdata")
     public void testDataProvider(String a,String b,String c){
-        System.out.println("++++++++"+a+"----"+b+"-----"+c);
+//        ChromeDriver driver = DriverUtil.getDriver();
+//        driver.get("http://www.baidu.com");
+//        try {
+//            Thread.sleep(2000);
+//        } catch (InterruptedException e) {
+//            e.printStackTrace();
+//        }
 
+        System.out.println("++++++++"+a+"----"+b+"-----"+c);
+//        driver.quit();
     }
 
 }

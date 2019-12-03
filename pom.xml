@@ -8,7 +8,23 @@
     <artifactId>webauto_java</artifactId>
     <version>1.0-SNAPSHOT</version>
     <build>
+<!--        <defaultGoal>compile</defaultGoal>-->
         <plugins>
+            <!---以下为maven运行testng的插件方便与jenkins集成-->
+
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-surefire-plugin</artifactId>
+                <version>3.0.0-M4</version>
+                <configuration>
+                    <!--以下为要运行的testNg文件-->
+                    <suiteXmlFiles>
+                        <suiteXmlFile>src/main/resources/testNg.xml</suiteXmlFile>
+                    </suiteXmlFiles>
+                </configuration>
+            </plugin>
+            <!---以上为maven运行testng的插件，方便jenkins集成-->
+
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
@@ -17,7 +33,9 @@
                     <target>8</target>
                 </configuration>
             </plugin>
+
         </plugins>
+
     </build>
     <dependencies>
         <dependency>
@@ -102,11 +120,7 @@
             <version>3.9</version>
         </dependency>
 
-<!--        <dependency>-->
-<!--            <groupId>org.apache.maven.plugins</groupId>-->
-<!--            <artifactId>maven-surefire-plugin</artifactId>-->
-<!--            <version>3.0.0-M4</version>-->
-<!--        </dependency>-->
+
     </dependencies>
 
 

@@ -9,7 +9,7 @@
              exclude节点：不包括
   -->
 
-<suite name="All Test Suite">
+<suite name="AllTests">
     <test verbose="2" preserve-order="true" name="/Users/liucong/Downloads/javaprojects/webauto_java">
         <classes>
             <class name="com.curry.webauto_java.scripts.TestDemo">

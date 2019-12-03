@@ -280,11 +280,6 @@ public class TestSeleniumAPI {
     }
 
 
-    /*用例执行顺序*/
-    @Test
-    public void testOrder(){
-
-    }
 }
 
 
