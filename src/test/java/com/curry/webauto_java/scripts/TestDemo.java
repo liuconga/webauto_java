@@ -4,7 +4,6 @@ import com.curry.webauto_java.Retry;
 import com.curry.webauto_java.tool.ReadData;
 import io.qameta.allure.Allure;
 import io.qameta.allure.Description;
-import io.qameta.allure.Issue;
 import org.apache.poi.openxml4j.exceptions.InvalidFormatException;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
@@ -50,7 +49,7 @@ public class TestDemo {
     }
     //忽略此方法
     //添加allure测试用例问题
-    @Issue("步骤4：我是test_pay,我被跳过啦")
+    @Description("步骤4：我是test_pay,我被跳过啦")
     @Test(enabled = false)
     public void test_pay() {
         System.out.println("我是opay");

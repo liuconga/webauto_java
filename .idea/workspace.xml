@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5d908cf9-e218-4dc4-a45d-93cc008824dc" name="Default Changelist" comment="2.allure">
+    <list default="true" id="5d908cf9-e218-4dc4-a45d-93cc008824dc" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/curry/webauto_java/scripts/TestDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/curry/webauto_java/scripts/TestDemo.java" afterDir="false" />
     </list>
@@ -24,8 +24,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/curry/webauto_java/scripts/TestDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="186">
-              <caret line="76" column="26" lean-forward="true" selection-start-line="76" selection-start-column="26" selection-end-line="76" selection-end-column="26" />
+            <state relative-caret-position="968">
+              <caret line="44" column="6" selection-start-line="44" selection-start-column="6" selection-end-line="45" selection-end-column="41" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -376,7 +376,7 @@
       <workItem from="1575208858417" duration="15232000" />
       <workItem from="1575293790496" duration="600000" />
       <workItem from="1575294444661" duration="1539000" />
-      <workItem from="1575355460194" duration="1744000" />
+      <workItem from="1575355460194" duration="2760000" />
     </task>
     <task id="LOCAL-00001" summary="2.allure">
       <created>1575356766808</created>
@@ -385,7 +385,21 @@
       <option name="project" value="LOCAL" />
       <updated>1575356766808</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="3.添加allure步骤和描述">
+      <created>1575357363297</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1575357363297</updated>
+    </task>
+    <task id="LOCAL-00003" summary="3.添加allure步骤和描述">
+      <created>1575358450665</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1575358450665</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -421,7 +435,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="71552000" />
+    <option name="totallyTimeSpent" value="72568000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -436,7 +450,7 @@
     <frame x="0" y="23" width="1280" height="700" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2923453" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.2923453" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -474,7 +488,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="1.testng-java" />
     <MESSAGE value="2.allure" />
-    <option name="LAST_COMMIT_MESSAGE" value="2.allure" />
+    <MESSAGE value="3.添加allure步骤和描述" />
+    <option name="LAST_COMMIT_MESSAGE" value="3.添加allure步骤和描述" />
   </component>
   <component name="editorHistoryManager">
     <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar!/org/openqa/selenium/WebDriver.class">
@@ -689,8 +704,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/curry/webauto_java/scripts/TestDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="76" column="26" lean-forward="true" selection-start-line="76" selection-start-column="26" selection-end-line="76" selection-end-column="26" />
+        <state relative-caret-position="968">
+          <caret line="44" column="6" selection-start-line="44" selection-start-column="6" selection-end-line="45" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
