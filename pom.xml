@@ -23,8 +23,9 @@
                     </suiteXmlFiles>
                 </configuration>
             </plugin>
-            <!---以上为maven运行testng的插件，方便jenkins集成-->
 
+
+            <!---以下为maven，编译插件-->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
@@ -118,6 +119,12 @@
             <groupId>org.apache.poi</groupId>
             <artifactId>poi-ooxml</artifactId>
             <version>3.9</version>
+        </dependency>
+        <dependency>
+            <groupId>org.seleniumhq.selenium</groupId>
+            <artifactId>selenium-firefox-driver</artifactId>
+            <version>3.141.59</version>
+            <scope>test</scope>
         </dependency>
 
 
