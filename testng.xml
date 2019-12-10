@@ -9,19 +9,12 @@
              exclude节点：不包括
   -->
 <!--parallel为实现多线程并发的参数，thread-count为线程个数-->
-<suite name="AllTests" parallel="methods" thread-count="2">
-<!--<suite name="AllTests">-->
+<suite name="AllTests" parallel="methods" thread-count="4">
+    <!--<suite name="AllTests">-->
     <test verbose="2" preserve-order="true" name="/Users/liucong/Downloads/javaprojects/webauto_java">
-        <parameter name="browser1" value="chrome" />
-        <parameter name="browser2" value="firefox" />
-
         <classes>
-            <class name="com.curry.webauto_java.scripts.TestMultiThreading">
-                <methods>
-                    <include name="testBrowser1"/>
-                    <include name="testBrowser2"/>
-<!--                    <include name="testBrowser"/>-->
-                </methods>
+<!--            如果不写测试方法，则包含类中所有测试方法-->
+            <class name="com.curry.webauto_java.scripts.TestSeleniumGrid">
             </class>
         </classes>
     </test>
